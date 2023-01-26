@@ -13,7 +13,10 @@ root.render(
   <React.StrictMode>
     <div className="card box">
         <Card resume={resume} />
+        <h3>Tech Skills</h3>
         <Stacks stacks={resume.stacks}/>
+        <h3>Soft Skills</h3>
+        <Stacks stacks={resume.softskills}/>
     </div>
     <div className="resumeCard">
       <Experiences experiences={resume.experiences}/>

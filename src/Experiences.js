@@ -6,11 +6,13 @@ function Experiences ({experiences}){
         <>
         {
             (experiences.map((xp,key)=>
-                <div className='xp box'>
+                <div className='xp'>
                     <h2>{xp.company_name}</h2>
-                    <span className="period">{xp.entry_date}-{xp.quit_date}</span>
-                    <span className="stacks"><Stacks stacks={xp.stacks}/></span>
-                    <div className="jobDescription box">{xp.job_description}</div>
+                    <div className="details">
+                        <span className="period">{xp.entry_date}-{xp.quit_date}</span>
+                        <span className="stacks"><Stacks stacks={xp.stacks}/></span>
+                    </div>
+                    <div className="jobDescription">{xp.job_description}</div>
                 </div>
             ))
         }
