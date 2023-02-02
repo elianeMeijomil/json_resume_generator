@@ -1,0 +1,66 @@
+div.cardBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    gap:3rem;
+    margin:1rem;
+}
+
+div.cardBox div.photo img { display:block;width: 100%; height: 100%; max-width: 20rem;border-radius: 5rem;}
+div.cardBox div.photo {
+  margin: 1rem auto 1.4rem;
+  padding:0.2rem;
+  border-radius: 5rem;
+  width:50%; height:50%;
+  align-items: center;
+  justify-content: center;
+  background:var(--color_option0);
+}
+
+div.cardBox div.skillsBox { flex: 1 1 350px;}
+div.contactCard span {display:block}
+div.contactCard span p {display:inline-block; margin-left:0.5rem;}
+div.resumeCard{ margin:1rem; }
+
+span.stack {
+  display:inline-block; 
+  padding:0.4rem;
+  margin:0.3rem;
+  border-radius:0.3rem;
+  font-weight: bold;
+}
+
+span.color0{background:var(--color_option0); color:var(--color_option0_font)}
+span.color1{background:var(--color_option1); color:var(--color_option1_font)}
+span.color2{background:var(--color_option2); color:var(--color_option2_font)}
+span.color3{background:var(--color_option3); color:var(--color_option3_font)}
+
+div.resumeCard div.xp{
+  display: block;
+  margin:3rem 1.5rem 0rem;
+} 
+
+div.resumeCard {
+  background-color: #eee;
+}
+div.resumeCard h2{
+  display:inline-block;
+  width: 100%;
+  border-bottom: 1px double #222;
+  padding:1rem 0;
+  margin-bottom: 0;
+  color:#000;
+  font-family: 'Courier New', Courier, monospace;
+}
+div.resumeCard div.details {display: inline-block; width:100%}
+div.resumeCard span.period { float:right; margin:1rem 0 0rem;}
+div.resumeCard span.stacks { float: left; margin:0 1.5rem 1rem;}
+div.resumeCard div.jobDescription {
+  text-align:left;
+  color:#282c34;
+  padding:1.2em;
+  margin: 0 0.3rem 2rem;
+  border-radius: 0 0 2rem 0;
+  background:#eee;
+}

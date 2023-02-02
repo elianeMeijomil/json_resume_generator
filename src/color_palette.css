@@ -1,0 +1,45 @@
+/* Color Pallete */
+/* Desert
+/*:root{
+    --color_option0:#468966;
+    --color_option2:#FFF0A5;
+    --color_option1:#FFB03B;
+    --color_option3:#B64926;
+    --color_option0_font: #FFF0A5;
+    --color_option2_font: #468966;
+    --color_option1_font: #B64926;
+    --color_option3_font: #FFB03B;
+} */
+/* Colorfull */
+/* :root{
+    --color_option0:#53BF9D;
+    --color_option1:#F94C66;
+    --color_option2:#BD4291;
+    --color_option3:#FFC54D;
+    --color_option0_font: #000;
+    --color_option1_font: #fff;
+    --color_option2_font: #fff;
+    --color_option3_font: #000;
+} */
+/* Elegant */
+/* :root{
+    --color_option0:#698269;
+    --color_option1:#B99B6B;
+    --color_option2:#F1DBBF;
+    --color_option3:#AA5656;
+    --color_option0_font: #F1DBBF;
+    --color_option1_font: #F1DBBF;
+    --color_option2_font: #698269;
+    --color_option3_font: #F1DBBF;
+} */
+/* Elegant */
+:root{
+    --color_option0:#C2DED1;
+    --color_option1:#ECE5C7;
+    --color_option2:#CDC2AE;
+    --color_option3:#354259;
+    --color_option0_font: #354259;
+    --color_option1_font: #354259;
+    --color_option2_font: #354259;
+    --color_option3_font: #ECE5C7;
+}

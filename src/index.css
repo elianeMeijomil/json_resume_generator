@@ -9,6 +9,8 @@ body {
   background-color: rgb(30, 30, 32);
 }
 
+a { text-decoration: none; color:#fff;}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -27,7 +29,7 @@ header {
 
 ul { list-style: none;}
 
-.box { /* padrão para qualquer box que tiver bordas redondas e sombra */
+.cardBox { /* padrão para qualquer box que tiver bordas redondas e sombra */
   display:block ;
   padding:1rem;
   text-align: center;
@@ -38,65 +40,3 @@ ul { list-style: none;}
   box-shadow: 9px 10px 15px -10px rgba(0,0,0,0.75);
   border-radius:1rem;
 }
-
-@media only screen and (orientation: portrait) or (max-width: 768px) {
-  div.card {
-    width: 15rem;
-    margin:3rem auto 3rem 100%;
-  }
-}
-@media (orientation: landscape) {
-  div.card {
-    max-width: calc(60% - 3rem);
-    margin:3rem auto;
-  }
-}
-div.resumeCard div.xp{
-  display: block;
-  margin:3rem 1.5rem 0rem;
-} 
-
-div.resumeCard {
-  background-color: #eee;
-}
-div.resumeCard h2{
-  display:inline-block;
-  text-align: center;
-  width: 100%;
-  border-bottom: 1px double #222;
-  padding:1rem 0;
-  margin-bottom: 0;
-  color:#000;
-  font-family: 'Courier New', Courier, monospace;
-}
-div.resumeCard div.details {display: inline-block; width:100%}
-div.resumeCard span.period { float:right; margin:1rem 0 0rem;}
-div.resumeCard span.stacks { float: left; margin:0 1.5rem 1rem;}
-div.resumeCard div.jobDescription {
-  text-align:left;
-  color:#282c34;
-  padding:1.2em;
-  margin: 0 0.3rem 2rem;
-  border-radius: 0 0 2rem 0;
-  background:#eee;
-}
-
-div.card div.photo {
-  margin: 1rem auto 1.4rem;
-  border-radius: 5rem;
-  width:7rem; height:7rem;
-  background:rgba(241, 8, 136, 0.8);
-}
-
-span.stack {
-  display:inline-block; 
-  padding:0.4rem;
-  margin:0.3rem;
-  border-radius:0.3rem;
-  font-weight: bold;
-}
-
-span.color0{background: rgba(111, 255, 111, 0.3);}
-span.color1{background: rgba(91, 91, 255, 0.3);}
-span.color2{background: rgba(255, 122, 122, 0.4);}
-span.color3{background: rgba(255, 105, 255, 0.3);}
