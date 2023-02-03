@@ -64,3 +64,7 @@ div.resumeCard div.jobDescription {
   border-radius: 0 0 2rem 0;
   background:#eee;
 }
+
+div.contactCard span.socials {width:3rem; display: inline-block;}
+div.contactCard div.contact span p{margin: 0.5rem; }
+hr {margin: 1.4rem 1rem;}
